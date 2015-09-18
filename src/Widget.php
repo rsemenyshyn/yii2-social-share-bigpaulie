@@ -19,6 +19,7 @@ class Widget extends \yii\base\Widget {
         'google-plus' => 'https://plus.google.com/share?url={url}',
         'twitter' => 'https://twitter.com/home?status={url}',
         'linkedin' => 'https://www.linkedin.com/shareArticle?mini=true&url={url}',
+        'vk' => 'http://vk.com/share.php?url={url}',
     ];
 
     public function init() {
